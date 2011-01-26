@@ -1,0 +1,9 @@
+login: &login
+  adapter: mysql
+  host: localhost
+  username: <%= user %>
+  password: <%= password %>
+
+production:
+  database: <%= database_name %>
+  <<: *login

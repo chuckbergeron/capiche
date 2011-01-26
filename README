@@ -1,0 +1,29 @@
+Capiche
+=======
+
+Capiche is a relatively simple Capistrano recipe for deployment to Apis Networks, using relative symlinks instead of absolute ones. It supports the following:
+
+    * A schematic for relative symlinks
+    * A directory for the site owner to upload PDFs and other assets to, via FTP
+    * Mirroring the production database to the development machine (for debugging a site locally) 
+
+
+Example
+=======
+
+1. capify .
+2. ./script/plugin install 
+3. cap deploy
+
+Simple!
+
+
+
+Thanks
+======
+
+Cheers to Fowlduck ( http://twitter.com/fowlduck ) for his excellent database cloning script.
+
+
+
+Copyright (c) 2009 - 2011 Chuck Bergeron & CARBON, released under the Creative Commons Attribution license: This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered.
